@@ -22,6 +22,6 @@ public class RxManager {
 //                .observeOn(AndroidSchedulers.mainThread())
 //                .subscribe(observer);
 
-    }
+
 
 }
