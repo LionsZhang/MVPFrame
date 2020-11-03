@@ -16,12 +16,12 @@ import io.reactivex.schedulers.Schedulers;
  */
 public class RxManager {
 
-//    public static <T> void toSubscrib(Observable<T> observable, Observer<T> observer) {
-//        observable.subscribeOn(Schedulers.io())
-//                .unsubscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe(observer);
-
+    public static <T> void toSubscrib(Observable<T> observable, Observer<T> observer) {
+        observable.subscribeOn(Schedulers.io())
+                .unsubscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(observer);
+    }
 
 
 }
